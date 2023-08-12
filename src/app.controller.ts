@@ -12,6 +12,6 @@ export class AppController {
 
   @Post()
   setHello(): string {
-    return ('Heitor dev');
+    return 'Heitor dev';
   }
 }
